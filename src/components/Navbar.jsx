@@ -30,17 +30,17 @@ export default function Navbar(props) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="./About" className="nav-link" href="#">
+              <Link to="/about" className="nav-link" href="#">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="./Contact" className="nav-link" href="#">
+              <Link to="/contact" className="nav-link" href="#">
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="./Product" className="nav-link" href="#">
+              <Link to="/product" className="nav-link" href="#">
                 Product
               </Link>
             </li>

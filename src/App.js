@@ -33,7 +33,7 @@ export default function App() {
                 <Route path="/product">
                   <Product />
                 </Route>
-                <Route path="/">
+                <Route exact path="/">
                   <Main />
                 </Route>
               </Switch>
