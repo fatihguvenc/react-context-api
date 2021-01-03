@@ -5,9 +5,9 @@ export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           Fatih G.
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

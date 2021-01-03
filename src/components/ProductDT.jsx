@@ -8,7 +8,7 @@ export default function ProductDT() {
   const product = products.filter(item => item._id === Number(productID));
   return (
     <div className="mt-5">
-      <h1 className="mb-5">Product Detail:</h1>
+      <h1 className="mb-5">Product:</h1>
       <h2>{product[0].title}</h2>
       <p>{product[0].detail}</p>
     </div>
